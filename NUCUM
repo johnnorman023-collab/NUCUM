@@ -1,0 +1,23 @@
+print("Hello, World!")
+print("Welcome to Python Programming!")
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+score = 85
+
+if score >= 90:
+    print("Grade: A")
+elif score >= 80:
+    print("Grade: B")
+elif score >= 70:
+    print("Grade: C")
+else:
+    print("Grade: F")
+    
+print("Addition:", num1 + num2)
+print("Subtraction:", num1 - num2)
+print("Multiplication:", num1 * num2)
+print("Division:", num1 / num2)
+print("Floor Division:", num1 // num2)
+print("Remainder", num1 & num2)
